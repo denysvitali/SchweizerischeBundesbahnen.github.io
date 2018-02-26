@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<article class="post-container post-container--single">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <section class="post">
+    {{ content }}
+  </section>
+  {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+  
+  <div class="post-meta">
+      <a href="https://www.github.com/{{ page.githubuser }}" title="{{ page.author }} on GitHub" target="_blank">{{ page.author }}</a> &#8226; 
+	  <time datetime="{{ page.date | date: "%Y-%m-%d %H:%M" }}" class="post-meta__date date">{{ page.date | date: "%-d %b %Y" }}</time>
+      {% if page.tags.size > 0 %} &#8226; 
+	  <span class="post-meta__tags">Tags:{% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span>
+      {% endif %}
+    </div>
+  
+</article>
+{% if page.comments != false %}{% include disqus.html %}{% endif %}
+

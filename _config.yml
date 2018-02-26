@@ -1,0 +1,43 @@
+# Site settings
+title: Technologie erleben @ SBB
+description: 'Stories rund um die Softwareentwicklung bei der SBB CFF FFS'
+url: 'https://SchweizerischeBundesbahnen.github.io'
+baseurl: '/'
+google_analytics: 'UA-113933653-1'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'SBB Informatik - Softwareengineering'
+  email: herbert@sbb.ch
+  twitter_username: sweng_sbb
+  #facebook_username: joshgerdes
+  github_username:  SchweizerischeBundesbahnen
+  #linkedin_username:  joshgerdes
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

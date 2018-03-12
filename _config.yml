@@ -4,7 +4,7 @@ description: 'Stories rund um die Softwareentwicklung bei der SBB CFF FFS'
 url: 'https://SchweizerischeBundesbahnen.github.io'
 baseurl: '/'
 google_analytics: 'UA-113933653-1'
-# disqus_shortname: 'your-disqus-name'
+disqus_shortname: 'techblog-sbb-ch'
 
 author:
   name: 'SBB Informatik - Softwareengineering'

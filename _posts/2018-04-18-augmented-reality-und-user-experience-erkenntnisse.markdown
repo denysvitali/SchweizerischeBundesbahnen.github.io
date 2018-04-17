@@ -2,13 +2,13 @@
 title:  "Augmented Reality und User Experience – Erkenntnisse aus der Praxis"
 date:   2018-04-17 13:11:00
 categories: [engineering, ux]
-tags: [Softwareengineering, Technologie, UX, AR, Augmented Reality, User Experience]
+tags: [Softwareengineering, Technologie, AR/VR, UX]
 author: Sibylle Trenck
 githubuser: Sibtrenck
 ---
 ![UX Brunch Begrüssung](/images/2018-04-18_1.jpg "UX Brunch Begrüssung")
 
-[Sibylle Trenck][SibylleTrenck], [Daniel Boos][DanielBoos], SBB AG, UX Brunch · Impact Hub Zürich · 2. März 2018  
+[Sibylle Trenck][SibylleTrenck], [Daniel Boos][DanielBoos], SBB AG, UX Brunch · Impact Hub Zürich · 2. März 2018
 
 Beim UX Brunch am 2. März im Impact Hub Zürich durften Daniel Boos und Sibylle Trenck Einblicke geben in aktuelle Innovationsvorhaben und Proof of Concepts zu Anwendungen mit Augmented Reality. Bis April 2019 soll der Zürich Hauptbahnhof zum digitalsten, persönlichsten Bahnhof der Welt werden. Die Chancen der Digitalisierung werden derzeit im Zürich HB erforscht und getestet, um das Kundenerlebnis zu steigern, die Effizienz und Sicherheit zu optimieren, die Kundeninteraktion und Information zu verbessern und neue Services zu etablieren. Beim Digitaltag 2017 wurde daher im Auftrag von Bruno Lochbrunner und SBB Immobilien ein AR-Prototyp auf Smartphones für Reisende getestet. Diese App soll in Zukunft die Orientierung unterstützen, Reisende durch den Bahnhof navigieren und Serviceangebote wie z.B. Abfahrtsinformationen mit Belegungsprognose oder interaktive Shopping-Erlebnisse zur Verfügung stellen. Die Ergebnisse aus dem Test und einer Umfrage mit Reisenden zu deren Bedürfnissen haben wir beim UX Brunch präsentiert.
 

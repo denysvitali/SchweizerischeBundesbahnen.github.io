@@ -1,6 +1,6 @@
 ---
 title:  "Augmented Reality und User Experience – Erkenntnisse aus der Praxis"
-date:   2018-04-18 10:11:00
+date:   2018-04-17 13:11:00
 categories: [engineering, ux]
 tags: [Softwareengineering, Technologie, UX, AR, Augmented Reality, User Experience]
 author: Sibylle Trenck
